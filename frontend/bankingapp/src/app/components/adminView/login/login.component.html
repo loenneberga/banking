@@ -1,0 +1,40 @@
+<div class="container-fluid">
+<nav class="navbar navbar-expand">
+
+  <a class="navbar-brand mr-1" style="color:#00AAA9" href="/landingpage">Paradise Financial Group</a>
+
+  
+</nav>
+
+<!-- SIDEBAR -->
+<ul class="sidebar navbar-nav">
+
+
+
+</ul>
+
+  <!-- MAIN CONTENT -->
+  <div class="content-wrapper">
+
+<div>
+  <h1>Admin login</h1>
+  <div class="form-group">
+    <label for="exampleDropdownFormEmail2">Username</label>
+    <input class="form-control" #name placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label for="exampleDropdownFormPassword2">Password</label>
+    <input type="password" class="form-control" #password placeholder="Password">
+  </div>
+  <div class="form-group">
+  </div>
+  <button type="submit" class="btn btn-primary" (click)='adminLogin(name.value, password.value)'>Sign in</button>
+</div>
+</div>
+  <!-- FOOTER-->
+  <footer class="footer">
+      <span>
+          Paradise is very nice
+      </span>
+    </footer>
+</div>

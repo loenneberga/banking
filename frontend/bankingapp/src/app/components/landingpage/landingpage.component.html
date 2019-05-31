@@ -1,0 +1,70 @@
+<div class="customcontainer" style="width: 100%; margin: 0 auto;">
+  <div class="card card-login mx-auto mt-5" style="width:400px">
+    <div class="card-header">User Login</div>
+    <div class="card-body">
+      <form>
+        <div class="text-center">
+        <input #id type="text" id="ID" class="fadeIn first" name="login" placeholder="ID">
+        <input #password type="text" id="password" class="fadeIn second" name="login" placeholder="Password">
+        
+        <button type="submit" class="btn btn-secondary" (click)='userLogin(id.value, password.value)'>Sign in</button>
+      </div>
+      </form>
+
+      <div class="text-center">
+          <a class="d-block small mt-3" style="color: #376161" href="/admin/login">Are you an admin? Sign in here!</a>
+        </div>
+
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+<!-- 
+
+
+      <form>
+        <div class="form-group">
+
+
+          <div class="form-label-group">
+            <input #id class="form-control" placeholder="insert id">
+            <label>Id</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-label-group">
+            <input #password type="password" id="inputPassword" class="form-control" placeholder="Password"
+              required="required">
+            <label for="inputPassword">Password</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)='userLogin(id.value, password.value)'>Sign in</button>
+      </form>
+      
+    </div>
+  </div>
+</div>
+ -->
+
+
+{{loggedInUser.firstName}}
+
+
+
+<!-- <div class="form-group">
+    <label for="exampleDropdownFormEmail2">Username</label>
+    <input class="form-control" #id placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label for="exampleDropdownFormPassword2">Password</label>
+    <input type="password" class="form-control" #password placeholder="Password">
+  </div>
+  <div class="form-group">
+  </div>
+  <button type="submit" class="btn btn-primary" (click)='userLogin(id.value, password.value)'>Sign in</button>
+ -->
